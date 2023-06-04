@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+}
+
+.container {
+  height: 100vh;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(66, 78, 95);
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  text-decoration: underline;
+  text-decoration-color: rgba(128, 128, 128, 0.404);
+  padding-bottom: 1rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.email {
+  padding-bottom: 12px;
+}
+
+.email-input, .password-input {
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border-style: none;
+  outline-style: none;
+  background-color: rgba(128, 128, 128, 0.144);
+}
+
+.btn-login, .btn-sign-in {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 0.8rem;
+  outline-style: none;
+  border-style: none;
+  background-color: rgba(128, 128, 128, 0.404);
+}
+
+#btn-login, #btn-sign-in {
+  padding: 0.36rem;
+}
+
+.btn-login:hover, .btn-sign-in:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.144);
+  transition-duration: 0.2s;
+}
